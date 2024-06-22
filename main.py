@@ -3,6 +3,13 @@ import plotly.express as px
 from backend import get_data
 from glob import glob
 
+# Ctrl + C acaba o programa e dps tenho que criar um requirements txt file, ou seja, dps tenho que escvever no terminal:
+# pip freeze > requirements.txt
+
+# Para colocar um Url publico, devo criar um projeto só com os ficheiros que preciso!!!
+# Dps colocar no git repository and then escrever again no terminal: streamlit run web.py
+# Dps carregar na opção deploy
+
 st.set_page_config(layout='wide')
 
 st.title('Weather Forecast for the Next Days')
